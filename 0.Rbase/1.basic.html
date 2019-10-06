@@ -1670,10 +1670,9 @@ print(myfct)</code></pre>
 <div id="벡터vector" class="section level3">
 <h3>- 벡터(Vector)</h3>
 <ul>
-<li>R에서 다루는 가장 작은 데이터 단위 ex) Numerical, Character …</li>
 <li><strong>동일한 타입</strong> 의 스칼라가 여러개 모인 것, <code>typeof(변수)</code>로 벡터타입을 확인할 수 있다.<br />
 </li>
-<li><strong>Combine 함수</strong>를 이용하여 여러 값으로 구성할 수 있다.<br />
+<li><strong>Combine 함수</strong><code>c( )</code>를 이용하여 여러 값으로 구성할 수 있다.<br />
 </li>
 <li>항목에 접근할 때 <strong>[ ]</strong> 를 사용한다.</li>
 </ul>
@@ -1757,8 +1756,72 @@ length(x) # 벡터 길이 계산 (인덱스 갯수)</code></pre>
 x_set = unique(x) # 반환된 벡터를 다른 변수에 넣어서 사용 가능
 print(x_set)</code></pre>
 <pre><code>## [1] -100    4    5    1    2    3    8    9   10</code></pre>
-<p>수학함수 |함수명 | 설명 | |——–|——–| | log(x)/exp(x) | 항목별 로그/지수 계산 | | max(x)/min(x) | 항목의 최대값/최소값 반환 | | round(x,n)/signif(x,n) | 항목별 반올림 | | cor(x,y) | 항목별 상관분석(상관계수) 계산 | | cov(x,y) | 공분산 계산 | | sum(x) | 벡터의 항목 합 | | mean(x) | 벡터의 항목 평균 | | median(x) | 벡터의 항목 중앙 값 | | quantile(x) | 벡터의 사분위 값 계산| | rank(x) | 벡터의 항목별 순위 | | var(X) | 벡터의 분산 값 | | sd(x) | 벡터의 표준편차 | | range(x) | 최대값 최소값의 차이 |</p>
+<div id="수학함수" class="section level5">
+<h5>수학함수</h5>
+<table>
+<thead>
+<tr class="header">
+<th>함수명</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>log(x)/exp(x)</td>
+<td>항목별 로그/지수 계산</td>
+</tr>
+<tr class="even">
+<td>max(x)/min(x)</td>
+<td>항목의 최대값/최소값 반환</td>
+</tr>
+<tr class="odd">
+<td>round(x,n)/signif(x,n)</td>
+<td>항목별 반올림</td>
+</tr>
+<tr class="even">
+<td>cor(x,y)</td>
+<td>항목별 상관분석(상관계수) 계산</td>
+</tr>
+<tr class="odd">
+<td>cov(x,y)</td>
+<td>공분산 계산</td>
+</tr>
+<tr class="even">
+<td>sum(x)</td>
+<td>벡터의 항목 합</td>
+</tr>
+<tr class="odd">
+<td>mean(x)</td>
+<td>벡터의 항목 평균</td>
+</tr>
+<tr class="even">
+<td>median(x)</td>
+<td>벡터의 항목 중앙 값</td>
+</tr>
+<tr class="odd">
+<td>quantile(x)</td>
+<td>벡터의 사분위 값 계산</td>
+</tr>
+<tr class="even">
+<td>rank(x)</td>
+<td>벡터의 항목별 순위</td>
+</tr>
+<tr class="odd">
+<td>var(X)</td>
+<td>벡터의 분산 값</td>
+</tr>
+<tr class="even">
+<td>sd(x)</td>
+<td>벡터의 표준편차</td>
+</tr>
+<tr class="odd">
+<td>range(x)</td>
+<td>최대값 최소값의 차이</td>
+</tr>
+</tbody>
+</table>
 <p><br /></p>
+</div>
 </div>
 </div>
 <div id="매트릭스matrix" class="section level3">
