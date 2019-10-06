@@ -17,26 +17,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# 0. 목차(Index)
+# 0. 시작
 - 이 문서는 R마크다운(rmarkdown)으로 작성되었습니다.
-
-[1. R 개요 및 설치](#1.-r-개요-및-설치)  
-
-[2. 데이터 다루기](#2.-데이터-다루기)  
-- [2-1. 데이터 타입](#2-1.-데이터-타입)      
-- [2-2. 데이터 구조](#2-2.-데이터-구조)  
-    - [벡터(Vector)](#--벡터(Vector))  
-    - [매트릭스(Matrix)](#--매트릭스(Matrix))  
-    - [배열(Array)](#--배열(Array))  
-    - [리스트(List)](#--리스트(List))  
-    - [데이터프레임(data.frame)](#--데이터-프레임(data.frame))  
-- [2-3. 기본문법](#2-3.-기본문법)  
-    - [구문](#--구문)  
-    - [비교연산자](#--비교연산자)  
-
-[3. 데이터 가공](http://www.opensquared.org/home/program/education.do)  
-
-[4. 데이터 시각화](http://www.opensquared.org/home/program/education.do)
 <br/>
 
 # 1. R 개요 및 설치
